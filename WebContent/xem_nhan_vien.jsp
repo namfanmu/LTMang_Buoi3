@@ -6,8 +6,7 @@
     <%@ include file="header.jsp" %>
     <%@ include file="DatabaseAccess.jsp" %>
     <%
-    	String queryStr = "Select maso, hoten, tenpb, ngaysinh, diachi, ghichu"
-    	+ " from nhanvien, phongban where nhanvien.mapb = phongban.mapb order by maso;";
+    	String queryStr = "Select * from nhanvien";
     	ResultSet rs = st.executeQuery(queryStr);
     %>
 </head>

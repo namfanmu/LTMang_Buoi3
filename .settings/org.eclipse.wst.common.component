@@ -2,6 +2,7 @@
     <wb-module deploy-name="LTMang_Buoi3">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/WEB-INF/lib"/>
         <property name="context-root" value="LTMang_Buoi3"/>
         <property name="java-output-path" value="/LTMang_Buoi3/build/classes"/>
     </wb-module>
